@@ -8,7 +8,9 @@
 <body>
 <h1>My first website</h1>
     <?php
-    echo "My first website";
+    //This prints something on the screen
+    /*
+    echo "My first website";*/
     ?>
 
 <form method="GET">
