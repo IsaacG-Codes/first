@@ -11,12 +11,12 @@
     echo "My first website";
     ?>
 
-<form method="food">
+<form method="GET">
     <input type= "text" name="edible">
     <button>SUBMIT</button>
 </form>
 <?php
-    $name = $_food['edible'];
+    $name = $_GET['edible'];
     echo $name." is totally edible!!!";
 ?>
 </body>
