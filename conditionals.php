@@ -12,22 +12,22 @@
     $x = 2;
 
     if($x == 1){
-        echo "Daniel is very handsome!";
+        echo "Today is Monday.";
     }elseif($x == 2){
-        echo "Daniel is kinda handsome";
+        echo "Today is Tuesday.";
     }
     elseif($x == 3){
-        echo "Daniel is kinda handsome";
+        echo "Today is Wednesday.";
     }
     elseif($x == 4){
-        echo "Daniel is kinda handsome";
+        echo "Today is Thursday.";
     }
     elseif($x == 5){
-        echo "Daniel is kinda handsome";
+        echo "Today is Friday.";
+    } else{
+        echo "It is the weekend.";
     }
-    else{
-        echo "Daniel is very ugly!";
-    }
+
 
 ?>
 
@@ -37,19 +37,19 @@
 
     switch ($x){
         case 1:
-            echo "The answer is 1";
+            echo "You got 1 correct!";
             break;
         case 2:
-            echo "The answer is 2";
+            echo "You got 2 correct!";
             break;
         case 3:
-            echo "The answer is 3";
+            echo "You got 3 correct!";
             break;
         case 4:
-            echo "The answer is 4";
+            echo "You got 4 correct!";
             break;
         default:
-            echo "There is no answer";
+        echo "You got none correct...";
     }
 
 ?>
