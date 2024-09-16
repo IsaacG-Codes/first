@@ -9,9 +9,9 @@
     
 <?php
 
-    $array = array("Dan","Jane","Jacob","John","Marianne");
+    $array = array("Dan","Jane","Jacob","John","Isaac");
 
-    echo $array[1]
+    echo $array[4]
 
 ?>
 

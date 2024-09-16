@@ -10,17 +10,22 @@
 <?php
 
 
-function newCalc($x){
-    $newnr = $x * 0.75;
-    echo "here is 75% of what you wrote: ".$newnr."<br>";
+function triangle($x, $y){
+    $area_triangle = $x * $y / 2;
+    echo "Area of your triangle: ".$area_triangle."<br>";
 }
 
+?>
+<?php
+
 $x = 100;
-newCalc($x);
+$y = 50;
+triangle($x, $y);
 
 
 $a = 10;
-newCalc($a);
+$b = 5;
+triangle($a, $b);
 ?>
 
 

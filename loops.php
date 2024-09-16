@@ -9,7 +9,17 @@
     
 <?php
 
-//While and Do While Loops
+//While Loops
+$x = 1;
+
+while($x <= 5){
+    echo "hi there<br>";
+    $x++;
+}
+
+
+
+//Do While Loops
 
     $x = 1;
     do {
@@ -18,9 +28,7 @@
     }
     while($x <= 5);
 
-?>
 
-<?php
 
 //For Loops
 
@@ -28,9 +36,7 @@ for($x = 0; $x < 10; $x++){
     echo "hi<br>";
 }
 
-?>
 
-<?php
 
 //Foreach Loops
 

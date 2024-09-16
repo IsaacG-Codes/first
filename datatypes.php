@@ -22,7 +22,7 @@
     // false = 0
     //Array 
     $names = array("Math","English","Science");
-    echo $names['1'];
+    echo $names['2'];
 
 ?>
 
