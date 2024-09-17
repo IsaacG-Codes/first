@@ -4,3 +4,9 @@ p {
     font-family: Arial;
     margin: 10vh;
 }
+nav {
+    background: rgb(61, 97, 255);
+}
+.navbar-brand{
+    margin-right: 50vh;
+}
