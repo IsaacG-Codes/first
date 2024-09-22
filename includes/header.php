@@ -1,3 +1,8 @@
+<?php
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,6 +48,19 @@
   </div>
 </nav>
 
+<?php
+
+$_SESSION['username'] = "Isaac1234G";
+echo $_SESSION['username'];
+
+if(!isset($_SESSION['username'])){
+echo "You are not logged in!";
+
+}
+else {
+  echo "You are logged in.";
+}
+?>
 
 </body>
 </html>
