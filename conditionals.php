@@ -1,6 +1,5 @@
 <?php
     include 'includes/header.php';
-    include_once 'includes/dbh.inc.php';
 ?>
 <!doctype html>
 <html lang="eng">
